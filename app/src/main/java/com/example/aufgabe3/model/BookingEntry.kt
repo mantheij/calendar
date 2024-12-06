@@ -1,4 +1,10 @@
 package com.example.aufgabe3.model
 
-// TODO Customise the data structure for a book entry according to the requirements
-data class BookingEntry()
+import java.time.LocalDate
+
+// Data class for a booking entry
+data class BookingEntry(
+    val arrivalDate: LocalDate,
+    val departureDate: LocalDate,
+    val name: String
+)
